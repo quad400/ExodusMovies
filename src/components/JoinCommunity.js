@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const JoinCommunity = () => {
-  return (<div className='mx-20 mb-50 py-20 px-5' style={{
+  return (<div className='mx-20 mb-50 py-20 px-5 max-md:mx-10 max-sm:mx-5' style={{
                 background: "linear-gradient(109deg, rgba(13, 13, 13, 0.50) 2.46%, rgba(13, 13, 13, 0.30) 100%)",
                 backdropFilter: "blur(10px)"
             }}>
