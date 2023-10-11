@@ -30,7 +30,7 @@ const WhatWeOffer = () => {
 
   return (
     <div className="bg-offer-banner bg-cover bg-no-repeat">
-      <div className="bg-[rgba(0,0,0,0.7)] py-20">
+      <div className="bg-[rgba(0,0,0,0.7)] py-20 px-[20px]">
 
         <h3 className="font-semibold text-center text-white text-[56px] max-md:text-[30px] max-sm:text-[24px]">
           What do we <span className="text-red-600">offer</span>?
@@ -44,11 +44,11 @@ const WhatWeOffer = () => {
           {offer.map((item) => {
             return (
               <div className="flex flex-col justify-center items-center">
-                <img src={item.image} alt={item.title} />
-                <h4 className="font-medium text-[14px] text-white">
+                <img src={item.image} alt={item.title} className="max-sm:h-[90px] max-sm:w-[90px]" />
+                <h4 className="font-semibold text-[14px] text-white max-sm:text-[14px]">
                   {item.title}
                 </h4>
-                <p className="text-white text-center font-normal text-[12px]">
+                <p className="text-white text-center font-normal text-[12px] max-sm:text-[10px]">
                   {item.desc}
                 </p>
               </div>

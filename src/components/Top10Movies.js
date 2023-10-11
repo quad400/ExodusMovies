@@ -51,7 +51,7 @@ const Top10Movies = () => {
 
 
   return (
-    <div className="bg-white relative py-[60px] px-10">
+    <div className="bg-white relative py-[60px] px-[20px]">
       <img
       alt="cross1"
         src={require("../assets/images/cross2.png")}
@@ -89,7 +89,7 @@ const Top10Movies = () => {
                   className="transition-all ease-in hover:scale-105"
                 >
                   <img
-                    className="w-70 md:h-60 md:w-60 sm:h-50 sm:w-50"
+                    className="w-70 h-80 max-md:h-60 max-md:w-60 max-sm:h-50 max-sm:w-50"
                     alt={item.title}
                     src={item.image}
                   />

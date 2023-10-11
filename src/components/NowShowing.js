@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NowShowing = () => {
   return (
     <div className="mt-20 relative">
-      <div className="flex flex-row justify-between items-center">
+      <div className="flex flex-row justify-between items-center px-[20px]">
         <h3 className="font-bold text-white max-md:text-[36px] max-sm:text-[24px] text-[56px]">
           <span className="text-red-600">Now</span> Showing
         </h3>
@@ -22,9 +22,9 @@ const NowShowing = () => {
           />
         </svg>
       </div>
-      <div className="mt-10 flex flex-row justify-start items-start top-8">
+      <div className="mt-10 flex flex-row justify-start items-start">
          
-          <div className="bg-black w-full mt-[40px] pb-[80px] flex flex-row justify-between items-center space-x-10">
+          <div className="bg-black w-full mt-[40px] pb-[80px] px-[20px] flex flex-row justify-between items-center space-x-10">
         <img
           src={require("../assets/images/extraction 2.png")}
           alt="extraction"

@@ -5,7 +5,7 @@ const NavBar = () => {
   const [menuToggle, setMenuToggle] = useState(false);
   return (
     <div className="sticky">
-      <nav className="flex-row justify-between items-center px-8 py-5 hidden sm:flex">
+      <nav className="flex-row justify-between items-center px-[20px] py-5 hidden sm:flex">
         <ul className="flex flex-row justify-center space-x-5 items-center">
           <li className="transition-all ease-in-out hover:scale-110 flex-col">
             <Link className="font-medium text-sm text-white">Home</Link>
@@ -29,8 +29,8 @@ const NavBar = () => {
           </li>
         </ul>
         <ul className="flex flex-row justify-center items-center space-x-4">
-          <li className="px-5 py-2 bg-white rounded-sm shadow-lg">
-            <Link className="text-center text-black text-xs font-medium transition-all ease-in-out hover:scale-110 ">
+          <li className="transition-all ease-in-out hover:scale-110 px-5 py-2 bg-white rounded-sm shadow-lg">
+            <Link className="text-center text-black text-xs font-medium">
               SIGN-UP
             </Link>
           </li>
@@ -104,12 +104,12 @@ const NavBar = () => {
             </li>
           </ul>
           <ul className="flex flex-col justify-center items-center space-y-3">
-            <li className="px-5 py-2 bg-white rounded-sm shadow-lg">
+            <li className="transition-all ease-in-out hover:scale-110 px-5 py-2 bg-white rounded-sm shadow-lg">
               <Link className="text-center text-black text-xs font-medium">
                 SIGN-UP
               </Link>
             </li>
-            <li className="px-5 py-2 bg-black rounded-sm shadow-lg">
+            <li className="transition-all ease-in-out hover:scale-110 px-5 py-2 bg-black rounded-sm shadow-lg">
               <Link className="text-white text-xs font-medium text-center ">
                 SIGN-IN
               </Link>

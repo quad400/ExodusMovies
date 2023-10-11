@@ -6,6 +6,8 @@ import WhatWeOffer from "../components/WhatWeOffer";
 import Top10Movies from "../components/Top10Movies";
 import Booking from "../components/Booking";
 import CheckOut from "../components/CheckOut";
+import JoinCommunity from "../components/JoinCommunity";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -38,6 +40,12 @@ const Home = () => {
       <WhatWeOffer />
       <Top10Movies />
       <CheckOut />
+
+      <div className="bg-top-banner bg-no-repeat bg-cover bg-fixed">
+        <div className="pt-20"></div>
+        <JoinCommunity />
+        <Footer />
+      </div>
     </div>
   );
 };
